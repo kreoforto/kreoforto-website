@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE site SYSTEM "site.dtd">
+
+<site>
+    <document id="1" path="index.html" content="index.html" ssl="off">
+        <template id="1" />
+        <title>Agentur für Werbung und Webdesign - KREOforto</title>
+        <description>KREOforto, die Agentur für Werbung und Webdesign in Pforzheim, ist Ihr Partner für Webdesign, Printmedien und Corporate Design</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="2" path="leistungen.html" content="leistungen.html" ssl="off">
+        <template id="2" />
+        <title>Webdesign, Printmedien, Corporate Design - KREOforto </title>
+        <description>KREOforto, Ihre Werbeagentur in Pforzheim, bietet: Webdesign [Homepage, CMS [TYPO3...], SEO], Design von Printmedien [Flyer...], Corporate Design...</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="3" path="philosophie.html" content="philo.html" ssl="off">
+        <template id="3" />
+        <title>Vertrauen ist die Basis jeder Partnerschaft - KREOforto</title>
+        <description>Vertrauen und Verantwortung sind die Basis für Erfolg - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="4" path="ueber-uns.html" content="team.html" ssl="off">
+        <template id="4" />
+        <title>Webdesigner aus Leidenschaft - KREOforto</title>
+        <description>Engagiert und Zielstrebig - Mediengestalter und Webdesigner aus Leidenschaft - KREOforto, Ihre Werbeagentur in Pforzheim</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="5" path="referenzen.html" content="referenzen.html" ssl="off">
+        <template id="5" />
+        <title>Unsere Referenzen - KREOforto</title>
+        <description>Mit diesen Partnern haben wir bereits erfolgreich zusammengearbeitet - KREOforto, Ihre Werbeagentur in Pforzheim</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="6" path="kontakt.html" content="kontakt.html" ssl="off">
+        <template id="6" />
+        <title>Nehmen Sie Kontakt auf - KREOforto</title>
+        <description>Wir freuen uns auf die Zusammenarbeit mit Ihnen -  - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="7" path="seo.html" content="seo.html" ssl="off">
+        <template id="2" />
+        <title>Suchmaschinenoptimierung (SEO) für Ihre Homepage - KREOforto</title>
+        <description>KREOforto, Ihre Werbeagentur in Pforzheim führt für Ihre Homepage eine Suchmaschinenoptimierung (SEO) durch.</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="8" path="homepage-erstellen.html" content="homepage.html" ssl="off">
+        <template id="2" />
+        <title>Erstellen von Homepages und Webapplikationen - KREOforto</title>
+        <description>Wir erstellen Homepages mit denen Sie Ihre Kunden begeistern werden! Natürlich suchmaschinenoptimiert und auf Wunsch mit CMS.</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="9" path="cms.html" content="cms.html" ssl="off">
+        <template id="2" />
+        <title>Content-Management-Systeme (CMS) [TYPO3...] - KREOforto</title>
+        <description>Wir setzen Ihre Website in einem Content-Management-System (CMS) wie z.B. TYPO3 um und entwicklen für Sie TYPO3-Extensions.</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="10" path="corporate-design.html" content="cd.html" ssl="off">
+        <template id="2" />
+        <title>Corporate Design (CD) [Logo-Design,...] - KREOforto</title>
+        <description>Corporate Design ist mehr als nur ein Logo! Wir wissen worauf es ankommt! - KREOforto, Ihre Werbeagentur in Pforzheim</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="11" path="social-networks.html" content="social.html" ssl="off">
+        <template id="2" />
+        <title>Marketing mit Social Networks und Blogs - KREOforto</title>
+        <description>KREOforto - Print- und Onlinemarketing - Wir helfen Ihnen Social Networks und Blogs für Ihr Marketing zu nutzen.</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="12" path="printmedien.html" content="print.html" ssl="off">
+        <template id="2" />
+        <title>Gestaltung von Printmedien [Flyer, Plakate...] - KREOforto</title>
+        <description>Wir gestalten für Sie Printmedien, wie z.B. Flyer, Plakate, Kataloge und Visitenkarte, die Ihre Kunden begeistern werden.</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="13" path="preise.html" content="preise.html" ssl="off">
+        <template id="2" />
+        <title>Gutes Design zu fairen Preisen - KREOforto</title>
+        <description>Webdesign, Printmedien und Corporate Design zu fairen Preisen - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+    </document>
+    <document id="14" path="404.html" content="404.html" ssl="off">
+        <template id="1" />
+        <title>Fehler 404: Seite nicht gefunden - KREOforto</title>
+        <description></description>
+        <head_image small="fehler404-links.jpg" large="fehler404-rechts.jpg" />
+        <script src="" />
+    </document>
+    <document id="15" path="jutta-haaser.html" content="jutta.html" ssl="off">
+        <template id="4" />
+        <title>Jutta Haaser / Designerin - KREOforto</title>
+        <description>Mediengestalterin aus Leidenschaft - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="16" path="mario-kaufmann.html" content="mario.html" ssl="off">
+        <template id="4" />
+        <title>Mario Kaufmann / Webdesigner - KREOforto</title>
+        <description>Webdesigner aus Leidenschaft - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="17" path="marc-lorenzo-schulz.html" content="lorenzo.html" ssl="off">
+        <template id="4" />
+        <title>Marc-Lorenzo Schulz / Webdesigner - KREOforto</title>
+        <description>Webdesigner aus Leidenschaft - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>
+    <document id="18" path="impressum.html" content="impressum.html" ssl="off">
+        <template id="1" />
+        <title>Impressum - KREOforto</title>
+        <description>KREOforto, die Agentur für Werbung und Webdesign in Pforzheim, ist Ihr Partner für Webdesign, Printmedien und Corporate Design</description>
+        <head_image small="impressum-links.jpg" large="impressum-rechts.jpg" />
+        <script src="" />
+    </document>
+    <document id="19" path="anfrage.html" content="kontaktform.html" ssl="on">
+        <template id="6" />
+        <title>Fordern Sie Ihr Angebot an - KREOforto</title>
+        <description>Wir freuen uns auf die Zusammenarbeit mit Ihnen -  - KREOforto, Ihre Agentur für Werbung und Webdesign</description>
+        <head_image small="" large="" />
+        <script src="jquery-1.6.min.js" />
+        <script src="kontakt.js" />
+    </document>
+    <!--<document id="" path="" content="">
+        <template id="" />
+        <title></title>
+        <description></description>
+        <head_image small="" large="" />
+        <script src="" />
+    </document>-->
+</site>

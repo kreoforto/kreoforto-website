@@ -1,0 +1,27 @@
+<!ELEMENT site        (document)+ >
+<!ELEMENT document    (template,title,description,head_image,(script)+) >
+<!-- Attribute id must be unique -->
+<!ATTLIST template
+  id      CDATA       #REQUIRED
+  path    CDATA       #REQUIRED
+  content CDATA       #REQUIRED
+  ssl     CDATA       #REQUIRED
+>
+<!ELEMENT template    (#PCDATA) >
+<!-- Attribute id corresponds to template id in layout.xml -->
+<!ATTLIST template
+  id      CDATA       #REQUIRED
+>
+<!ELEMENT title       (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT head_image  EMPTY >
+<!-- Attributes may be empty -->
+<!ATTLIST head_image
+  small   CDATA     #REQUIRED
+  large   CDATA     #REQUIRED
+>
+<!ELEMENT script      EMPTY >
+<!-- Attribut may be empty -->
+<!ATTLIST script
+  src     CDATA      #REQUIRED
+>

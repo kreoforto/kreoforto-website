@@ -1,0 +1,140 @@
+html, #main {
+    background-color: #E5E5E5;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #58595B;
+}
+
+a {
+    color: #58595B;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: inherit;
+    font-weight: normal;
+}
+
+#header {
+    background-color: #FFFFFF;
+}
+
+#bottom_nav {
+    background-color: #FFFFFF;
+}
+
+#inner_content {
+    background-color: #FFFFFF;
+}
+
+#subheader {
+    border-left-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+}
+
+#subheader_small {
+    border-right-color: #FFFFFF;
+}
+
+#menue {
+    border-right-color: #E5E5E5;
+}
+
+div .link_separate {
+    border-right-color: #FFFFFF;
+}
+
+div .link_bg {
+    background-color: #D1D3D4;
+}
+
+div .link {
+    background-color: #0072BC;
+}
+
+#bottom_left {
+    border-right-color: #E5E5E5;
+}
+
+#bottom_right, #bottom_right a {
+    font-size: 9pt;
+}
+
+ul.outer_nav li {
+    color: #0072BC;
+    font-size: 11pt;
+}
+
+ul.inner_nav {
+    list-style-image: url(../images/zeichen_kreuz.gif);
+}
+
+ul.inner_nav li {
+    font-size: 8pt;
+    color: #000000;
+}
+
+ul.inner_nav li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+ul.inner_nav li a:hover {
+    color: #F37021;
+    font-size: 8pt;
+    text-decoration: none;
+}
+
+#text h1 {
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+#text h2 {
+    font-size: 11pt;
+    color: #F37021;
+    font-weight: normal;
+}
+
+#text h3 {
+    font-size: 11pt;
+    color: #58595B;
+    font-weight: normal;
+}
+
+#text p a {
+    color: #58595B;
+    text-decoration: underline;
+}
+
+#text p a:hover {
+    color: #0072BC;
+    text-decoration: underline;
+}
+
+img.portrait {
+    border-color: #E5E5E5;
+}
+
+.focus {
+    background-color: #E5E5E5;
+}
+
+#contact_form input.text, #contact_form textarea {
+    color: #58595B;
+    border-color: #D1D3D4;
+}
+
+#contact_form input.button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #58595B;
+    border-color: #D1D3D4;
+    background-color: #E5E5E5;
+}

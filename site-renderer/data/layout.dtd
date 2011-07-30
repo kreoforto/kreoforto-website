@@ -1,0 +1,28 @@
+<!ELEMENT       layout      (template)+ >
+<!ELEMENT       template    (navigation,head_image,menue) >
+<!-- Attribute id must be unique -->
+<!ATTLIST       template
+  id            CDATA       #REQUIRED
+>
+<!ELEMENT       navigation  EMPTY >
+<!ATTLIST       navigation
+  position      CDATA       #REQUIRED
+  startdocument CDATA       #REQUIRED
+  linktext      CDATA       #REQUIRED
+>
+<!ELEMENT head_image        EMPTY >
+<!ATTLIST       head_image
+  small         CDATA       #REQUIRED
+  large         CDATA       #REQUIRED
+>
+<!ELEMENT       menue       (item)+ >
+<!ELEMENT       item        (link)+ >
+<!-- Attribute may be empty if no links are set -->
+<!ATTLIST       item
+  heading       CDATA       #REQUIRED
+>
+<!ELEMENT       link        (#PCDATA) >
+<!-- Attributes may be empty if element is empty -->
+<!ATTLIST       link
+  document      CDATA       #REQUIRED
+>

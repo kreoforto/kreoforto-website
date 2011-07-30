@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE layout SYSTEM "layout.dtd">
+
+<layout>
+    <template id="1">
+        <navigation position="1" startdocument="1" linktext="KREOforto - Agentur für Werbung und Webdesign" />
+        <head_image small="bild35-left.jpg" large="bild35-right.jpg" />
+        <menue>
+            <item heading="">
+                <link document=""></link>
+            </item>
+        </menue>
+    </template>
+    <template id="2">
+        <navigation position="2" startdocument="2" linktext="Unsere Leistungen: Webdesign [Homepage, CMS], SEO, Printmedien [Flyer, Poster, Kataloge,...], Corporate Design" />
+        <head_image small="bild29-left.jpg" large="bild30-right.jpg" />
+        <menue>
+            <item heading="Webdesign &amp; Webentwicklung">
+                <link document="8">Erstellen individueller Homepages und Webapplikationen</link>
+                <link document="7">Suchmaschinenoptimierung (SEO)</link>
+                <link document="9">Einrichten von Content-Management-Systemen (CMS)</link>
+                <link document="11">Einrichten von Social Networks und Blogs</link>
+            </item>
+            <item heading="Printmedien">
+                <link document="12">Gestaltung von Printmedien</link>
+            </item>
+            <item heading="Corporate Design">
+                <link document="10">Erstellen eines Corporate Designs (CD)</link>
+            </item>
+            <item heading="Preise">
+                <link document="13">Gutes Design zu fairen Preisen!</link>
+            </item>
+            <item heading="Anfrage">
+                <link document="19">Fordern Sie Ihr individuelles und unverbindliches Angebot an!</link>
+            </item>
+        </menue>
+    </template>
+    <template id="3">
+        <navigation position="3" startdocument="3" linktext="Unsere Philosophie" />
+        <head_image small="bild22-left.jpg" large="bild22-right.jpg" />
+        <menue>
+            <item heading="">
+                <link document=""></link>
+            </item>
+        </menue>
+    </template>
+    <template id="4">
+        <navigation position="4" startdocument="4" linktext="Über uns" />
+        <head_image small="bild33-left.jpg" large="bild38-right.jpg" />
+        <menue>
+            <item heading="Designer">
+                <link document="15">Jutta Haaser</link>
+            </item>
+            <item heading="Webdesigner">
+                <link document="16">Mario Kaufmann</link>
+                <link document="17">Marc-Lorenzo Schulz</link>
+            </item>
+        </menue>
+    </template>
+    <template id="5">
+        <navigation position="5" startdocument="5" linktext="Referenzen" />
+        <head_image small="bild37-left.jpg" large="bild36-right.jpg" />
+        <menue>
+            <item heading="">
+                <link document=""></link>
+            </item>
+        </menue>
+    </template>
+    <template id="6">
+        <navigation position="6" startdocument="19" linktext="Kontakt" />
+        <head_image small="bild34-left.jpg" large="bild34-right.jpg" />
+        <menue>
+            <item heading="Kontakt">
+                <link document="19">Kontaktformular</link>
+                <link document="6">Kontaktinformationen</link>
+            </item>
+        </menue>
+    </template>
+</layout>
