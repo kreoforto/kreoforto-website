@@ -325,6 +325,11 @@ img.reference {
     margin-bottom: 7px;
 }
 
+img.reference_wide {
+    height: 53px;
+    width: 314px;
+}
+
 img.portrait {
     height:150px;
     position:absolute;
