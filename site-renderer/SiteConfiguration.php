@@ -7,8 +7,8 @@ class SiteConfiguration {
 
     public static $stylesheets     = array( "colour.css", "structure.css" );
     
-    const yui_compressor           = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/yuicompressor-2.4.2.jar";
-    const yui_temp_dir             = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/temp/";
+    const yui_compressor           = "./yuicompressor-2.4.2.jar";
+    const yui_temp_dir             = "./temp/";
 
     const version_file             = "VERSION.txt";
     
