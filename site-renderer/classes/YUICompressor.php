@@ -128,7 +128,13 @@ class Minify_YUICompressor {
     
     private static function _prepare()
     {
-        if (! is_file(self::$jarFile) 
+	print("\n");
+	print($jarFile);
+	print("\n");
+	print($tempDir);
+	print("\n");
+	print("\n");
+        if (! is_file(self::$jarFile)   
             || ! is_dir(self::$tempDir)
             || ! is_writable(self::$tempDir)
         ) {

@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 site-renderer/sr.conf
+=======
+*.swp
+*~
+>>>>>>> 08f2d504a31398f69d73048cea6d750656684cb2
