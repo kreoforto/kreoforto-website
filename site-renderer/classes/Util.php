@@ -73,7 +73,7 @@ class Util {
         $matches = array();
         preg_match("/{$paramName}[\s]*=[\s]*(.+)/m", $conf, $matches);
         
-        return $matches[1];        
+        return is_numeric($matches[1]) ? (boolean)$matches[1] : $matches[1];        
     }
 }
 
