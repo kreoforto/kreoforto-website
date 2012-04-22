@@ -40,7 +40,7 @@ class SiteConfiguration {
     const css_file                 = "style.css";
     const js_file_format           = "kreoforto-%s.js";
     
-    public static $placeholder     = array( "%DESCRIPTION%", "%TITLE%", "%CONTENT%", "%LEFT_WIDTH%", "%RIGHT_WIDTH%", "%SCRIPTS%", "%CSS%" );
+    public static $placeholder     = array( "%DESCRIPTION%", "%TITLE%", "%CONTENT%", "%LEFT_WIDTH%", "%RIGHT_WIDTH%", "%SCRIPTS%", "%CSS%", "%MOD_DATE%" );
     
     const script_format            = "<script type=\"text/javascript\" src=\"%s\"></script>";
     

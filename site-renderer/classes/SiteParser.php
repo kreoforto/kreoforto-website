@@ -17,8 +17,8 @@ class SiteParser {
             $temp->template    = trim( (string)$node->template["id"] );
             $temp->title       = trim( (string)$node->title );
             $temp->description = trim( (string)$node->description );
-            $temp->img_small   = SiteBuilder::versionize( trim( (string)$node->head_image["small"] ) );
-            $temp->img_large   = SiteBuilder::versionize( trim( (string)$node->head_image["large"] ) );
+            $temp->img_small   = trim( (string)$node->head_image["small"] );
+            $temp->img_large   = trim( (string)$node->head_image["large"] );
             
             trim( (string)$node["ssl"] ) == "on" ? $temp->protocol = "https" : $temp->protocol = "http";
             

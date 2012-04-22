@@ -83,7 +83,7 @@ class Template {
         }
         
         // create page
-        $replacement = array( $document->description, $document->title, $content, $width->left, $width->right, $scripts, $this->stylesheet);
+        $replacement = array( $document->description, $document->title, $content, $width->left, $width->right, $scripts, $this->stylesheet, date("Y") );
         
         // write page to web directory
         $builder = new SiteBuilder;
