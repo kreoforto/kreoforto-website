@@ -12,6 +12,7 @@ class Template {
     private $num_nav_items;
     private $stylesheet;
     private $base_template;
+    private $use_absolute_uri;
     
     public function setNavigation($navigation) {
         $this->navigation    = $navigation;
@@ -33,6 +34,7 @@ class Template {
         $inst = new self();
         $inst->setStylesheet($this->stylesheet);
         $inst->setBaseTemplate($this->base_template);
+        $inst->use_absolute_uri = Util::readConfig("use_absolute_uri");
         
         return $inst;
     }
@@ -50,7 +52,7 @@ class Template {
         
          foreach( $this->navigation as $item ) {
             
-            SiteConfiguration::use_absolute_uri ? $href = $item->protocol."://".SiteConfiguration::server_name."/".$item->href : $href = $item->href;
+            $this->use_absolute_uri ? $href = $item->protocol."://".SiteConfiguration::server_name."/".$item->href : $href = $item->href;
             
             if($item->position == $this->navigation_position) {
                 $nav_class = sprintf(SiteConfiguration::nav_active_class_format, $item->position);
@@ -75,7 +77,7 @@ class Template {
                         
             $builder = new SiteBuilder;
             $scripts = sprintf(SiteConfiguration::js_file_format, $document->id);
-            //SiteConfiguration::use_absolute_uri ? $script_path = $document->protocol."://".SiteConfiguration::server_name."/".SiteConfiguration::js_folder . "/" . $scripts : $script_path = SiteConfiguration::js_folder . "/" . $scripts;
+            //$this->use_absolute_uri ? $script_path = $document->protocol."://".SiteConfiguration::server_name."/".SiteConfiguration::js_folder . "/" . $scripts : $script_path = SiteConfiguration::js_folder . "/" . $scripts;
             $script_path = SiteConfiguration::js_folder . "/" . $builder->minify($document->scripts, $scripts, "JS");            
             $scripts = sprintf(SiteConfiguration::script_format, $script_path);
         }
@@ -112,7 +114,7 @@ class Template {
                 
                 $inner_links = "";
                 foreach( $item->links as $link ) {
-                    SiteConfiguration::use_absolute_uri ? $href = $link->protocol."://".SiteConfiguration::server_name."/".$link->href : $href = $link->href;
+                    $this->use_absolute_uri ? $href = $link->protocol."://".SiteConfiguration::server_name."/".$link->href : $href = $link->href;
                     $inner_links .= sprintf( $inner_link_format, $href, $link->text );
                 }
                 $inner_menue  = sprintf( $inner_menue_format, $inner_links );

@@ -6,14 +6,22 @@ require_once("YUICompressor.php");
 class SiteBuilder {
     
     private $webfolders;
+    private $yui_compressor;
+    private $yui_temp_dir;
 
     public function __construct() {
-
-        $this->webfolders = array( "IMAGE" => SiteConfiguration::web_folder . "/" . SiteConfiguration::image_folder . "/",
-                                   "CSS"   => SiteConfiguration::web_folder . "/" . SiteConfiguration::css_folder . "/",
-                                   "JS"    => SiteConfiguration::web_folder . "/" . SiteConfiguration::js_folder . "/",
-                                   "PHP"   => SiteConfiguration::web_folder . "/" . SiteConfiguration::php_folder . "/",
-                                   "ROOT"  => SiteConfiguration::web_folder . "/" );
+        
+        $this->yui_compressor = Util::readConfig("yui_compressor");
+        $this->yui_temp_dir   = Util::readConfig("yui_temp_dir");
+        
+        $webfolder = Util::readConfig("web_folder");
+        if(empty($webfolder)) { die("web_folder must be set in sr.conf"); }
+        
+        $this->webfolders = array( "IMAGE" => $webfolder . "/" . SiteConfiguration::image_folder . "/",
+                                   "CSS"   => $webfolder . "/" . SiteConfiguration::css_folder . "/",
+                                   "JS"    => $webfolder . "/" . SiteConfiguration::js_folder . "/",
+                                   "PHP"   => $webfolder . "/" . SiteConfiguration::php_folder . "/",
+                                   "ROOT"  => $webfolder . "/" );
     }
     
     public function buildSite() {
@@ -42,7 +50,7 @@ class SiteBuilder {
                     }
                 }
                 
-                if( $folder !== SiteConfiguration::web_folder . "/" ) {
+                if( $folder !== $this->webfolders["ROOT"] ) {
                     rmdir($folder);
                 }
             }
@@ -98,8 +106,8 @@ class SiteBuilder {
         $func = array( "JS" => "minifyJs", "CSS" => "minifyCss" );
         $aFiles = (array)$files;
         
-        Minify_YUICompressor::$jarFile = SiteConfiguration::yui_compressor;
-        Minify_YUICompressor::$tempDir = SiteConfiguration::yui_temp_dir;
+        Minify_YUICompressor::$jarFile = $this->yui_compressor;
+        Minify_YUICompressor::$tempDir = $this->yui_temp_dir;
         
         $path = "";
         if($merge) {

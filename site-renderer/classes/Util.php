@@ -61,6 +61,20 @@ class Util {
         
         return $content;
     }
+    
+    public static function readConfig($paramName) {
+        
+        $filename = SiteConfiguration::conf_file;
+        
+        $fid  = fopen($filename, 'r');
+        $conf = fread($fid, filesize($filename));
+        fclose($fid);
+        
+        $matches = array();
+        preg_match("/{$paramName}[\s]*=[\s]*(.+)/m", $conf, $matches);
+        
+        return $matches[1];        
+    }
 }
 
 ?>

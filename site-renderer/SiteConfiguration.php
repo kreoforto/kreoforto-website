@@ -3,14 +3,15 @@
 class SiteConfiguration {
 
     const server_name              = "www.kreoforto.de";
-    const use_absolute_uri         = false;
+    //const use_absolute_uri         = false;
 
     public static $stylesheets     = array( "colour.css", "structure.css" );
     
-    const yui_compressor           = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/yuicompressor-2.4.2.jar";
-    const yui_temp_dir             = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/temp/";
+    //const yui_compressor           = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/yuicompressor-2.4.2.jar";
+    //const yui_temp_dir             = "/Applications/XAMPP/htdocs/kreoforto/site-renderer/temp/";
 
     const version_file             = "VERSION.txt";
+    const conf_file                = "sr.conf";
     
     public static $versioned_files = array("gif", "jpg", "jpeg", "pdf", "png");
     public static $unversioned     = array("robots.txt", "sitemap.xml", "favicon.ico", "jquery-1.6.min.js");
@@ -31,7 +32,7 @@ class SiteConfiguration {
     
     const content_folder           = "../content";
     const xml_folder               = "data";
-    const web_folder               = "../page";
+    //const web_folder               = "../page";
     const base_template            = "base-template.html";
     
     const site_xml                 = "site.xml";
